@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bigHeader{
+    height: 60vh;
+    background: url(resources/81f3ff974d82520780078ba1cfbd453a1583259680.avif);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    /* background-position: 3%; */
+    background-color: rgb(255, 250, 250);
+    position: sticky;
+    
+}
+
+ul, ol{
+    list-style-type: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+/* ***************************************************************************************************************************
+                                        NAVBAR
+*************************************************************************************************************************** */
+
+nav{
+    padding: 2% 10% 0% 2%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100vw; */
+}
+
+.remainingNavbar ul{
+    font-size: 1.25rem;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ***************************************************************************************************************************
+                                                ORDER SECTION
+*************************************************************************************************************************** */
+
+.orderDiningSection ul{
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContainer{
+    /* padding: 0% 1%; */
+    /* width: 300px; */
+    /* height: 100px; */
+    border: 1px solid #e6e6e6;
+    margin: 1%;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: 200;
+}
+.imgContainer img{
+    width: 100%;
+    height: auto;
+    display: block;
+    /* border-radius: 1em; */
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    overflow: hidden;
+}
+.imgContainer .content{
+    padding: 5%;
+}
+
+
+.contentSection{
+    margin: 10vh 17vw;
+}
+.contentSection .heading{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+/* ***************************************************************************************************************************
+                                                COLLECTION SECTION
+*************************************************************************************************************************** */
+
+.photoFlexboxItems:nth-child(1){
+    background-image: url(resources/clifford-VobvKmG-StA-unsplash.jpg);
+}
+.photoFlexboxItems:nth-child(2){
+    background-image: url(resources/The\ Vasudeva\ Sculpture\,\ South\ Indian\ Carved\ Krishna\ Statue\,\ Vintage\ Inspired\ Wooden\ Indian\ God\ Sculpture\,\ Entryway\ Sculpture\ Fine\ Art.jpg);
+}
+.photoFlexboxItems:nth-child(3){
+    background-image: url(resources/Jalebi\ and\ Rabri\ Ice\ Cream\ —\ Cupcakeree.jpg);
+}
+.photoFlexboxItems:nth-child(4){
+    background-image: url(resources/Private\ Dining.jpg);
+}
+
+.photoFlexbox{
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0vw;
+    align-items: center;
+    color: white;
+}
+
+.photoFlexboxItems{
+    margin: 0px 2vw;
+    height: 300px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display:flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+
+
+
+
+
+/* ***************************************************************************************************************************
+                                                POPULAR LOCALITIES SECTION
+*************************************************************************************************************************** */
+.buttonFlexbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttonFlexboxElement{
+    font-size: 1.1rem;
+    width:20vw;
+    height: 8.7vh;
+    margin: 1%;
+    text-align: left;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e6e6e6;
+    border-radius: 0.3em; 
+}
+
+.buttonFlexbox button:last-child{
+    text-align: center;
+}
+
+
+
+
+
+
+.optionsTiling button{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.3em;
+    width: 100%;
+    text-align: left;
+    font-size: 1.4rem;
+    padding: 1.1%;
+    margin: 1.3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: whitesmoke;
+    margin: 0px 20vw;
+  }
+  .footer .col {
+    margin-top: 5%;
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h3 {
+    margin: 0;
+    padding: 0;
+    /* font-family: inherit; */
+    font-size: 1.15em;
+    line-height: 17px;
+    padding: 2px 0px 5px 0px;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin-top: 2px;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    margin-top: 2px;
+    color: black;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 1px!important;
+  }
+  
+  .footer .col ul li:hover {
+    color: black;
+    font-weight: bolder;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+ 
+.col{
+    margin-left: 2%;
+    width: 400px;
+}
